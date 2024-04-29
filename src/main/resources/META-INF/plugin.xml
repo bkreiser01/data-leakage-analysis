@@ -1,0 +1,88 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!--    See https://github.com/JetBrains/intellij-sdk-code-samples/blob/main/product_specific/pycharm_basics/src/main/resources/META-INF/plugin.xml-->
+    <!--Unique id for this plugin. Must stay constant for the life of the plugin. -->-->
+    <id>com.github.SE4AIResearch.DataLeakage_Fall2023</id>
+    <name>Data Leakage Detector</name>
+
+    <!-- Text to display as company information on Settings | Plugin page -->
+    <vendor>SE4AIResearch</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.python</depends>
+
+    <resource-bundle>messages.MyBundle</resource-bundle>
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Data Leakage Analysis" secondary="true" icon="AllIcons.Toolwindows.WebToolWindow" anchor="right"
+                    factoryClass="com.github.SE4AIResearch.DataLeakage_Fall2023.tool_windows.LeakageToolWindow"/>
+        <notificationGroup id="Leakage Notification Group"
+                           displayType="BALLOON"/>
+        <localInspection language="Python"
+                         groupPath="Python"
+                         groupName="LeakageInspections"
+                         enabledByDefault="true"
+                         level="WARNING"
+                         implementationClass="com.github.SE4AIResearch.DataLeakage_Fall2023.inspections.leakage_inspections.leakage_instances.OverlapLeakageInstanceInspection"
+                         displayName="Overlap leakage"
+                         shortName="OverlapLeakageInstanceInspection"/>
+        <localInspection language="Python"
+                         groupPath="Python"
+                         groupName="LeakageInspections"
+                         enabledByDefault="true"
+                         level="WARNING"
+                         implementationClass="com.github.SE4AIResearch.DataLeakage_Fall2023.inspections.leakage_inspections.leakage_sources.OverlapLeakageSourceInspection"
+                         displayName="Overlap Leakage Source"
+                         shortName="OverlapLeakageSourceInspection"/>
+        <localInspection language="Python"
+                         groupPath="Python"
+                         groupName="LeakageInspections"
+                         enabledByDefault="true"
+                         level="WARNING"
+                         implementationClass="com.github.SE4AIResearch.DataLeakage_Fall2023.inspections.leakage_inspections.leakage_instances.PreprocessingLeakageInstanceInspection"
+                         displayName="Preprocessing Leakage Instance"
+                         shortName="PreprocessingLeakageInstanceInspection"/>
+        <localInspection language="Python"
+                         groupPath="Python"
+                         groupName="LeakageInspections"
+                         enabledByDefault="true"
+                         level="WARNING"
+                         implementationClass="com.github.SE4AIResearch.DataLeakage_Fall2023.inspections.leakage_inspections.leakage_sources.PreprocessingLeakageSourceInspection"
+                         displayName="Preprocessing Leakage Source"
+                         shortName="PreprocessingLeakageSourceInspection"/>
+        <localInspection language="Python"
+                         groupPath="Python"
+                         groupName="LeakageInspections"
+                         enabledByDefault="true"
+                         level="WARNING"
+                         implementationClass="com.github.SE4AIResearch.DataLeakage_Fall2023.inspections.leakage_inspections.leakage_instances.MultiTestLeakageInstanceInspection"
+                         displayName="Multi-test Leakage Instance"
+                         shortName="MultiTestLeakageInstanceInspection"/>
+
+
+    </extensions>
+    
+
+<!--    <actions>-->
+<!--        <action id="com.github.SE4AIResearch.DataLeakage_Fall2023.actions.RunLeakageAction"-->
+<!--                class="com.github.SE4AIResearch.DataLeakage_Fall2023.actions.RunLeakageAction"-->
+<!--                text="Check For Data Leakage"-->
+<!--                description="Check for data leakage"-->
+<!--                icon="AllIcons.Actions.Execute">-->
+<!--            <add-to-group group-id="ToolsMenu" anchor="first"/>-->
+<!--        </action>-->
+<!--    </actions>-->
+
+    <applicationListeners>
+<!--        <listener-->
+<!--                class="com.github.SE4AIResearch.DataLeakage_Fall2023.listeners.PythonFileSaveListener"-->
+<!--                topic="com.intellij.openapi.vfs.newvfs.BulkFileListener"/>-->
+        <listener
+                class="com.github.SE4AIResearch.DataLeakage_Fall2023.listeners.FileChangeDetector"
+                topic="com.intellij.openapi.vfs.newvfs.BulkFileListener"/>
+
+        <listener
+                class="com.github.SE4AIResearch.DataLeakage_Fall2023.listeners.LeakageFileChangeDetector"
+                topic="com.intellij.openapi.vfs.newvfs.BulkFileListener"/>
+    </applicationListeners>
+</idea-plugin>

@@ -1,0 +1,1225 @@
+[33mcommit c7a2c95931cdf3b34c13ab920e37604ba70c37f2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mcdemario-quick-fixes[m[33m, [m[1;31morigin/cdemario-quick-fixes[m[33m)[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Mar 11 15:11:48 2024 -0400
+
+    remove leakage instance after split sample
+
+[33mcommit 6a8518cd52814362008ae72535b7ba5f08483a47[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Mar 10 14:45:13 2024 -0400
+
+    build on overlap quick fix functionality, still need to remove highlight after quick fix implemented
+
+[33mcommit 5bd57a2e02ed2f908aff0f39bb4c8bb0a7711820[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Fri Mar 8 13:44:24 2024 -0500
+
+    merged new ui changes
+
+[33mcommit 935de4efff61e7201f1c4e6ca368e6dee86a36e6[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Tue Mar 5 18:58:50 2024 -0500
+
+    merging develop with main
+
+[33mcommit bacfc3df90278b9c5009155dec89fe2ac1d84f81[m
+Merge: 6f85062 303559a
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Mar 3 22:38:21 2024 -0500
+
+    merge cdemario-quick-fixes
+
+[33mcommit 303559a92f43b1b9a141dccdac99f2bb3f38adcc[m
+Merge: dd476c5 93fade6
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Mar 3 21:28:27 2024 -0500
+
+    Merge pull request #21 from SE4AIResearch/rshagawat-tool-window
+    
+    Rshagawat tool window
+
+[33mcommit 93fade6444b198735bafa3f9b71ecd746007157d[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Mar 3 20:53:47 2024 -0500
+
+    removed unused actions
+
+[33mcommit 4e4477fc91a51da53b2b5e7d044047e9f2f8c85f[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Mar 3 20:49:21 2024 -0500
+
+    fixed equals and contain issue creating duplicate instances
+
+[33mcommit 0d5f320276048917895bf214d181f68b73bb18df[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Mar 3 19:21:41 2024 -0500
+
+    refactored RunLeakageAnalysis, added run leakage button to toolwindow
+
+[33mcommit 9f3bae6e1818dc53e312fea075f4906ebfe3b785[m[33m ([m[1;31morigin/rshagawat-tool-window[m[33m, [m[1;32mrshagawat-tool-window[m[33m)[m
+Merge: b277883 8c63a23
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Mar 3 13:01:13 2024 -0500
+
+    updated
+
+[33mcommit b277883fb9081ee6a104761b3f63b36061fcc4a6[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Mar 3 12:54:45 2024 -0500
+
+    removed duplicate iscompleted and added links to toolwindow
+
+[33mcommit 6f850625d1829bbd622c7636ab193b28752fa48f[m
+Merge: 93b5487 dd476c5
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Mar 3 07:44:33 2024 -0500
+
+    merge develop into quick fixes
+
+[33mcommit f72f73d6086f7edfb3684699fe072418fcc6d703[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sat Mar 2 12:46:06 2024 -0500
+
+    instances includes affected line numbers
+
+[33mcommit 24eaf0dd2b808ced3820464cf04e00b9c640cdcb[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Wed Feb 28 18:47:33 2024 -0500
+
+    clicking on line numbers moves to place in editor
+
+[33mcommit cafe885ff17adc699d9e5cf202eb1090e112acc8[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Wed Feb 28 17:53:19 2024 -0500
+
+    prevent ui changes outside edt thread
+
+[33mcommit 4175610271cc4d44bf9ffa0c867a4d448792adf0[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Tue Feb 27 15:51:35 2024 -0500
+
+    updated ui
+
+[33mcommit d7b86f2e33e432824fcf8fa942253094d36b11d3[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Feb 25 20:38:30 2024 -0500
+
+    toolwindow tables populate with data
+
+[33mcommit 983d3a1016b6000e85ae1ae1225ba6194ede1f07[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Thu Feb 22 13:26:04 2024 -0500
+
+    unfunctional toolwindow added
+
+[33mcommit dd476c5c221cfb13b7d639336db17689943c52ea[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sat Mar 2 12:47:32 2024 -0500
+
+    merged progress indicator and notifications
+
+[33mcommit 8c63a230a179efc8ab44844c80cc2bfc311c210f[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sat Mar 2 12:46:06 2024 -0500
+
+    instances includes affected line numbers
+
+[33mcommit 98ba2821a761025d3aecf0ba6e15eab6980aa834[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Wed Feb 28 18:47:33 2024 -0500
+
+    clicking on line numbers moves to place in editor
+
+[33mcommit 9f9e32c20f24859d681c70b11ee7ba507d500f39[m
+Merge: 2f0ef75 a1ea484
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Wed Feb 28 18:09:22 2024 -0500
+
+    Merge branch 'rshagawat-notifications' into rshagawat-tool-window
+
+[33mcommit a1ea484cda43f61fae5c3ea24e6036ce7de0d8da[m[33m ([m[1;31morigin/rshagawat-notifications[m[33m)[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Wed Feb 28 17:53:19 2024 -0500
+
+    prevent ui changes outside edt thread
+
+[33mcommit 0597af7c32277b7151cc363066ab7aa3a8a1cb12[m
+Merge: 2914e0c f20ab72
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Wed Feb 28 17:25:00 2024 -0500
+
+    merged develop
+
+[33mcommit 2f0ef750083d2a348dd018bf76bf6a3d59516867[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Tue Feb 27 15:51:35 2024 -0500
+
+    updated ui
+
+[33mcommit 93b548731019b39206d444b8a478f3cf4d7b8c81[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Feb 27 13:30:06 2024 -0500
+
+    improvments to multitest leakage quick fix'
+
+[33mcommit f20ab7209c2d60ad2a8f2be0d0d1f06a14e214d0[m[33m ([m[1;31morigin/cdemario-docker-hotfix[m[33m)[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Feb 26 19:16:40 2024 -0500
+
+    catch exceptions that occur when user has not started docker engine
+
+[33mcommit fd3f3202a3d205c2f5742731cd74dd99c28078b8[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Feb 26 18:40:38 2024 -0500
+
+    wip
+
+[33mcommit 69f8ad00265f47631200745b9c2d18ed2277e4fd[m
+Merge: 3ca3306 b9c4714
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Feb 25 21:08:11 2024 -0500
+
+    Merge branch 'develop' into rshagawat-tool-window
+
+[33mcommit b9c4714c8afd3de5210ee77bbb9ce074b917170b[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Feb 25 21:06:26 2024 -0500
+
+    fixed variableName calls
+
+[33mcommit 3ca33061f26806f0e9be167a22a37249fd5f6b89[m
+Merge: a5e48d1 15b5483
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Feb 25 21:01:13 2024 -0500
+
+    Merge branch 'develop' into rshagawat-tool-window
+
+[33mcommit 15b5483dbae7eebf7400b69d58e68a88754640d4[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Feb 25 20:54:44 2024 -0500
+
+    update leakgeinstance interface
+
+[33mcommit a5e48d12c6179a6a433a262c9b3c48803cc23a3a[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Feb 25 20:38:30 2024 -0500
+
+    toolwindow tables populate with data
+
+[33mcommit 22641327b20e95d9f978dc456b796cb942460c60[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Feb 25 17:35:29 2024 -0500
+
+    very first attempt at preprocessing. identical to overlaps
+
+[33mcommit 3dc09ab8d0e7b822da44a190abbb407d070581cc[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Feb 25 17:09:13 2024 -0500
+
+    start multitest quick fixes
+
+[33mcommit 6a3033036596d3dfa70e54847ba5447cb0a5de50[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sat Feb 24 15:54:42 2024 -0500
+
+    first attempt at overlapleakagesource quick fix. needs code cleanup/refactoring
+
+[33mcommit 67be38bdcd678077bce3f8099ef1828216996e79[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sat Feb 24 14:04:47 2024 -0500
+
+    get quick fix msg to show up, need to clean unused code
+
+[33mcommit fe492fcd470ead14e75c6ad67f1fcf0516269f43[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Thu Feb 22 13:26:04 2024 -0500
+
+    unfunctional toolwindow added
+
+[33mcommit 2914e0c6b8b6b48bb9ef0d6313cd07dcfee713a7[m[33m ([m[1;32mrshagawat-notifications[m[33m)[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Feb 18 23:10:13 2024 -0500
+
+    progress bar and notification
+
+[33mcommit a138850597069c41009c6c983ea3bd92986c30bc[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Feb 11 17:51:51 2024 -0500
+
+    update descriptions
+
+[33mcommit 797f91439ce6b02382ed22738733b7c046d1c8d2[m
+Merge: 6b7a71f 3a4c24d
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Feb 11 17:34:34 2024 -0500
+
+    Merge branch 'develop' of https://github.com/SE4AIResearch/DataLeakage_Fall2023 into develop
+
+[33mcommit 6b7a71fc9ce7f6509d40868a7f6bb1e9b021c1e6[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Feb 11 17:33:52 2024 -0500
+
+    modify inspection hightlighting
+
+[33mcommit 3a4c24d92571b8df78197100cd6b842947f785cb[m
+Merge: 621a038 27d18b6
+Author: bkreiser <bkreiser@duck.com>
+Date:   Sun Feb 11 17:33:33 2024 -0500
+
+    Merge branch 'develop' of github.com:SE4AIResearch/DataLeakage_Fall2023 into develop
+
+[33mcommit 621a0385b195edbb01b81ba786e323b904d5e90b[m
+Author: bkreiser <bkreiser@duck.com>
+Date:   Sun Feb 11 17:33:30 2024 -0500
+
+    refactoring
+
+[33mcommit 27d18b66e43ce78a2915d65c467d9cef5e30a520[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Feb 11 17:32:24 2024 -0500
+
+    user now has 10 minutes to install the plugin
+
+[33mcommit 694afe7131a83c01b03bd29bca4a932b9718e470[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Feb 11 16:56:41 2024 -0500
+
+    remove redundant popup
+
+[33mcommit a1686e0a45a6e4399b85c7fbd5224412035405b6[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Feb 11 16:52:11 2024 -0500
+
+    remove extra save
+
+[33mcommit 4369d253c476177549f9ab72a0e13e069b2ce04e[m[33m ([m[1;31morigin/cdemario-project-hotfix[m[33m)[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Feb 11 16:42:37 2024 -0500
+
+    surround get project in try catch
+
+[33mcommit 31ac57f934cf71f3ddff655cbd56b2da33994771[m
+Merge: 984e845 aa73c91
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Feb 11 16:31:27 2024 -0500
+
+    Merge branch 'develop' of https://github.com/SE4AIResearch/DataLeakage_Fall2023 into develop
+
+[33mcommit 984e845982b85b1ded290996afaedb57c9966b6d[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Feb 11 16:31:03 2024 -0500
+
+    close readers
+
+[33mcommit aa73c9154a7c9357cde4dbb76ab548156cd8eeff[m
+Author: bkreiser <bkreiser@duck.com>
+Date:   Sun Feb 11 16:29:14 2024 -0500
+
+    changed dialog output
+
+[33mcommit 972d6a7af84ba62e510f2bf91ab1700fd35bc790[m
+Author: bkreiser <bkreiser@duck.com>
+Date:   Sun Feb 11 16:11:16 2024 -0500
+
+    auto-delete functionaily for docker added / auto save on action
+
+[33mcommit d43078f143e89581c4d13cad1939ce5368684bfb[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Feb 11 14:25:06 2024 -0500
+
+    compatible with latest versoin of pycharm, removed debugging logs
+
+[33mcommit ba58b6d6df6aa6e271341fbb5c629492f0badf62[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Feb 11 12:16:28 2024 -0500
+
+    resolved incorrect path format
+
+[33mcommit 4286b897dd7b9b645c5e59cfa6f53f647cbf32a8[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sat Feb 10 23:32:08 2024 -0500
+
+    merged connect-close-fix
+
+[33mcommit eb359ebf118ca0e6c1672ed192d4aed04808ce8d[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sat Feb 10 22:31:53 2024 -0500
+
+    merged rshagawat-leakage-action
+
+[33mcommit f722c2391dcf5821705c220b8d0dad651e5645f5[m
+Merge: fab63f2 d69f9da
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sat Feb 10 21:03:09 2024 -0500
+
+    Merge branch 'develop' into cdemario-sat
+
+[33mcommit fab63f20c2b370d6df028099041e4814f561a265[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sat Feb 10 21:02:48 2024 -0500
+
+    wip
+
+[33mcommit d69f9da6ae0ed5dc581c7b156dc28949af1f4d69[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sat Feb 10 17:45:03 2024 -0500
+
+    added -o flag to docker execution
+
+[33mcommit 41124184e32396743b2c3fcb33767360283ab139[m
+Merge: 6fed2f0 fef6a32
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sat Feb 10 16:56:05 2024 -0500
+
+    Merge branch 'to-test' into cdemario-sat
+
+[33mcommit 6fed2f03a76b6ef85f76f9ad87944284434fb450[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sat Feb 10 16:53:43 2024 -0500
+
+    fixing file path
+
+[33mcommit ba31d4e1b943c6087ef5521036af967c62088bc9[m
+Author: bkreiser <bkreiser@duck.com>
+Date:   Sat Feb 10 13:57:13 2024 -0500
+
+    forgot a foreach loop
+
+[33mcommit c1f1740c477ead81b3a7bbc1fdf275b6ee0097a8[m
+Merge: bd1bd51 0d7fcd8
+Author: bkreiser <bkreiser@duck.com>
+Date:   Sat Feb 10 13:39:51 2024 -0500
+
+    merge in docker api stuff
+
+[33mcommit 0d7fcd83d63380e5893d2d8d1a1d044ec3016d0f[m[33m ([m[1;31morigin/bkreiser-dockerapi[m[33m)[m
+Merge: 3a2dbe1 984d308
+Author: bkreiser <bkreiser@duck.com>
+Date:   Sat Feb 10 13:38:19 2024 -0500
+
+    merge
+
+[33mcommit 3a2dbe1a49e1e9cb9326b95b9ffaf69618ec7fbc[m
+Author: bkreiser <bkreiser@duck.com>
+Date:   Sat Feb 10 13:32:25 2024 -0500
+
+    added close() function to DockerConnect
+
+[33mcommit 984d3084871309592b1274c0bec497d7729a71b9[m[33m ([m[1;31morigin/rshagawat-savelistener[m[33m)[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Fri Feb 9 20:58:59 2024 -0500
+
+    Added save listener
+
+[33mcommit c14cb93981482d04a7f5924200628c3ab1792d4d[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Thu Feb 8 18:37:30 2024 -0500
+
+    initialized new file listener
+
+[33mcommit eb5a18492ad044c04b4d61a53ca096527b88f94c[m
+Author: bkreiser <bkreiser@duck.com>
+Date:   Thu Feb 8 18:29:38 2024 -0500
+
+    refactoring and documentation
+
+[33mcommit bc12eea53be9c60fa08dab6fdb0d7e21586f3720[m
+Author: bkreiser <bkreiser@duck.com>
+Date:   Thu Feb 8 16:52:55 2024 -0500
+
+    refactor
+
+[33mcommit 0c07a48e5c03e8de94c550dd9f3cbc699fc30e78[m
+Author: bkreiser <bkreiser@duck.com>
+Date:   Thu Feb 8 16:48:37 2024 -0500
+
+    added comment to runLeakageAnalysis func
+
+[33mcommit c34ea450e92447a51f6485ca0d6b4f43764a8f70[m
+Author: bkreiser <bkreiser@duck.com>
+Date:   Thu Feb 8 16:47:47 2024 -0500
+
+    added api folder to gitignore
+
+[33mcommit a499247ad339d6bcafb60aa3e580502a61c9613e[m
+Author: bkreiser <bkreiser@duck.com>
+Date:   Thu Feb 8 16:41:33 2024 -0500
+
+    fixed issue with client/docker paths on windows and unix operating systems
+
+[33mcommit fef6a325a2c3baa29b0695c627ad6dbe999415e8[m[33m ([m[1;31morigin/to-test[m[33m)[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Thu Feb 8 15:28:45 2024 -0500
+
+    tst before merge
+
+[33mcommit 6ee67e833cb86251db45bfa355bddb7396d3a621[m[33m ([m[1;32mrshagawat-dockerapi[m[33m)[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Thu Feb 8 14:21:21 2024 -0500
+
+    http client added
+
+[33mcommit 62f35171c10931ec54d13b77120246ba259e6881[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Thu Feb 8 13:38:14 2024 -0500
+
+    container note getting deleted
+
+[33mcommit 8cd7f87b389c560a633a714b17968067ff805fcf[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Thu Feb 8 13:32:09 2024 -0500
+
+    make LeakageOutput into a class
+
+[33mcommit ac65c85b13ee652cab60f270ff8416a76629fe8a[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Thu Feb 8 13:12:07 2024 -0500
+
+    created filechanger and runleakageanaylsis
+
+[33mcommit bd1bd5112cfd005a9779bd1cec8f4d245f2cd1c9[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Wed Feb 7 08:27:13 2024 -0500
+
+    update multi-test message
+
+[33mcommit e765c703edd440363d670327a95224889d943414[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Feb 6 16:20:21 2024 -0500
+
+    stop throwing errs
+
+[33mcommit 0ec79fdf2c035a8f349eb0bcce79f9cb4fac9d94[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Mon Feb 5 09:07:57 2024 -0500
+
+    added a pull image and checkimage function
+
+[33mcommit 40c147d2fc47bf52d3812e1994776a2557819f8f[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Feb 4 20:00:44 2024 -0500
+
+    fixed conflicting libraries skeleton docker code
+
+[33mcommit 3a83d981ef2d1f07fdf4ae3f84bacec35b30976a[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Fri Feb 2 20:55:09 2024 -0500
+
+    created action button to try to establish a connection in docker
+
+[33mcommit a0ef9714bc9092c1999c0af8be5245c361952b1b[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Fri Feb 2 15:33:04 2024 -0500
+
+    added the dependency to the libs.versions.toml file for neatness
+
+[33mcommit 781f255c1d916b7e5941dc5d6e818c5ecc281a44[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Fri Feb 2 14:59:09 2024 -0500
+
+    added docker-api dependency in gradle
+
+[33mcommit 2282dd9603eb9696dafe2abce741e54ce0f93401[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Thu Feb 1 13:02:58 2024 -0500
+
+    naive solution to only render inspection once
+
+[33mcommit 3a04b588e8b7c4ee49d195188a9714e464d09829[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Jan 29 09:55:58 2024 -0500
+
+    remove duplicate taints.. needs refactoring
+
+[33mcommit b695e42e6e4b49066b597532a596f5bc0ab4cd82[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Wed Jan 24 20:27:01 2024 -0500
+
+    remove unused class, refactor multitest leakage
+
+[33mcommit 5e7f038b1e398ee074e1a194e9c3cd32f7990018[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Wed Jan 24 16:44:53 2024 -0500
+
+    fix config to match repo name
+
+[33mcommit 9001f6a7e6007cfa53bebee4226c1517d8705fc2[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Jan 23 14:39:50 2024 -0500
+
+    new abstract classes for inspections
+
+[33mcommit cd1a672ab13b420bf55ad06cea21cd50eba5fc62[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Jan 23 14:01:37 2024 -0500
+
+    make abstrct instance inspection
+
+[33mcommit 0ea9f98d1f36a33d18a1777fa298c5013c541e0c[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Jan 23 13:49:19 2024 -0500
+
+    split inspections into source and instance
+
+[33mcommit b3c864487d5f7047b2c766061160690b58fbc44d[m
+Merge: 419b529 138f441
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Jan 23 12:47:54 2024 -0500
+
+    Merge branch 'cdemario-preproc' into cdemario-refactoring
+
+[33mcommit 138f44116b211f936b375a19329c153d08a8f251[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Jan 23 12:47:45 2024 -0500
+
+    replace getCallee with getFirstChild
+
+[33mcommit 419b5297e9cb066ad36bfd1dd9c2b0d9df354960[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Jan 23 12:34:00 2024 -0500
+
+    wip
+
+[33mcommit 76272bf1c814fff8bc3bd6636a13e9f491059033[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Jan 22 16:13:18 2024 -0500
+
+    change weak warning -> warning so inspection regions are highlighted
+
+[33mcommit cbe2f685c4bbcbec0675c8c3614148b83937ada8[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Jan 21 20:25:25 2024 -0500
+
+    showing warnings for preprocessing leakage. sometimes multiple warnings are shown -- needs to be fixed
+
+[33mcommit ca607c1dbfbac9b56eebc60744461094b8a0a4c3[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Jan 21 18:55:34 2024 -0500
+
+    attempting preprocessing leakage
+
+[33mcommit 37ec9391dbdd42626aff87b989f0ab39cbbbe6e9[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Thu Jan 18 10:37:56 2024 -0500
+
+    change signatures, remove unused methods
+
+[33mcommit 37baf6e7bdd186ed411943fa936713aff617f15a[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Thu Jan 18 10:08:29 2024 -0500
+
+    refactor to remove extra method parameter
+
+[33mcommit 5d7c01bbaf9ec28cda89823e129e754cd21e7ea0[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Wed Jan 17 18:39:59 2024 -0500
+
+    refactoring
+
+[33mcommit 248ab979db1c2fa092c9e2979c0d808173ec8a22[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Jan 15 12:17:33 2024 -0500
+
+    wip
+
+[33mcommit a462ea47151c2fb5be9b5ef48b9fba3ac5670196[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Jan 15 11:25:57 2024 -0500
+
+    make abstract element visitor class
+
+[33mcommit f8dc6074354ed2ab5010a2513414c209bb5fe88e[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Jan 15 10:13:23 2024 -0500
+
+    refactoring
+
+[33mcommit c63d5bf90e1f17357b2abc976c4303aafd32c743[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Jan 14 19:04:00 2024 -0500
+
+    some refactoring
+
+[33mcommit b205e953e568107ea94f1b9c42103c3abb259cfa[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Jan 14 18:22:08 2024 -0500
+
+    add msg that warns about sampling and splitting done in the wrong order
+
+[33mcommit 76aed5e650b3f781f4f75117aff93532f2d3c533[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sat Jan 6 17:39:12 2024 -0500
+
+    fix source msg not showing
+
+[33mcommit 2684551d75ff7273ff718570f0a298055169c7f5[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sat Jan 6 14:29:34 2024 -0500
+
+    fix circular dependency, add taint
+
+[33mcommit c3014ecbe04267dfd9aea42ea889e3c130d4390d[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sat Jan 6 13:37:55 2024 -0500
+
+    add some docs for data and inspections
+
+[33mcommit bb1ce34866b15a7ea71c3d21b4d2c5bf5594bada[m[33m ([m[1;31morigin/suneedhi[m[33m, [m[1;31morigin/cdemario-inspection[m[33m, [m[1;31morigin/cdemario-documentation[m[33m, [m[1;32msuneedhi[m[33m)[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Jan 2 21:13:39 2024 -0500
+
+    add text to inspection bundle
+
+[33mcommit 3489a3b65eaeffbc143c58fb976ee06c0453b3a0[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Dec 31 15:31:02 2023 -0500
+
+    fix tests by adding arbitrary invocation
+
+[33mcommit d3b810dc60bb456f0ed40d8a039b94186cc9fd7e[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sun Dec 31 15:26:09 2023 -0500
+
+    add inspection for overlap leakage source, tests broken
+
+[33mcommit f411d9461c80bbf64deb471b7ae4d0ec44964111[m
+Merge: 02d1612 13ac99f
+Author: cd721 <cdemario@stevens.edu>
+Date:   Thu Dec 28 17:29:26 2023 -0500
+
+    merged develop into suneedhi
+
+[33mcommit 13ac99ff588919350b1cdece996685db8db991e4[m
+Merge: cbe7ffc bd652e8
+Author: cd721 <cdemario@stevens.edu>
+Date:   Thu Dec 28 16:40:40 2023 -0500
+
+    Merge branch 'cdemario-refactoring' into develop
+
+[33mcommit bd652e80b131db5c129938a99d4228d1525b3da2[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Thu Dec 28 16:39:30 2023 -0500
+
+    minor
+
+[33mcommit cbe7ffcab55c643736b7d3831586310e6ab734be[m
+Merge: b55b25e 73726b6
+Author: cd721 <cdemario@stevens.edu>
+Date:   Thu Dec 21 10:44:17 2023 -0500
+
+    Merge branch 'cdemario-inspection' into develop
+
+[33mcommit 73726b6ea3c06d0402dd833e4b15752ed9cd0e3c[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Thu Dec 21 10:43:50 2023 -0500
+
+    extract functionality to leakageinspection abstract class
+
+[33mcommit 595824b89b4b63e7997a02fb4c6a19f835c36ee8[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Wed Dec 20 19:13:40 2023 -0500
+
+    wip
+
+[33mcommit 1f5a4fc5517ac69b6ce68d063e3420882f368965[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Wed Dec 20 11:25:16 2023 -0500
+
+    refactor all leakage inspections
+
+[33mcommit 346efd2f5f3751714c29431ec7e57419bdfea73a[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Wed Dec 20 11:18:30 2023 -0500
+
+    refactor multitest leakage inspection
+
+[33mcommit b55b25ee88783fa015beb954d581ba818998706d[m
+Merge: 1c7c85a 78c457b
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Dec 19 15:52:46 2023 -0500
+
+    Merge branch 'cdemario-inspection' into develop
+
+[33mcommit 4256c9000b82c27a6e2a8f97e97c0f0a9d3dfc92[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Dec 19 15:52:17 2023 -0500
+
+    experimental refactoring
+
+[33mcommit 78c457b1b440be72e47174d055480bbc467f3560[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Dec 19 15:30:24 2023 -0500
+
+    extract inspection text into bundle
+
+[33mcommit 995c5d1941155e763aae52be49a3ea2d766b8aae[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Dec 19 15:09:50 2023 -0500
+
+    add inspection description
+
+[33mcommit 1c7c85af6148ce2885e95f39d795499c3264edf0[m
+Merge: 93648dd 0148fed
+Author: cd721 <cdemario@stevens.edu>
+Date:   Fri Dec 15 09:33:12 2023 -0500
+
+    merge cdemario-inspection into develop
+
+[33mcommit 0148feda64f289580c27d7efcc0e2bfa3d428d07[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Thu Dec 14 11:55:24 2023 -0500
+
+    preprocessing leakage working
+
+[33mcommit dca5188f69520ea6e2567899e2d2e0a4032ad685[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Dec 12 16:18:43 2023 -0500
+
+    highlight particular x_test associated with multitest leakage
+
+[33mcommit c79a3eb801497ec187e87decf4adf129799f0e93[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Dec 12 13:43:15 2023 -0500
+
+    highlight only the relevant x_test
+
+[33mcommit 84f1c2f9551869cbaac241f2df182d23b9fb1657[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Dec 12 10:01:53 2023 -0500
+
+    working on parsing telemetry files
+
+[33mcommit 93648dd80d54c98355e69de04fd02fc61821fbf5[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Dec 11 20:41:42 2023 -0500
+
+    minor doc update
+
+[33mcommit 7912d2c7a9929698b2c82e4616dc5e549dd003e9[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Dec 11 20:40:01 2023 -0500
+
+    update leakage detector docs
+
+[33mcommit ad7ff2c0504e87c9e785dfec2f51efb2d20d4deb[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Dec 11 19:31:55 2023 -0500
+
+    leakage detector comments
+
+[33mcommit 4b703cfd24341e183f958e18b214166cd8bcc746[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Dec 11 19:17:29 2023 -0500
+
+    write some notes
+
+[33mcommit 02d1612a82a175734abb9ae7b35c0df2a66bd771[m
+Author: laddhasuneedhi <phantrash360@gmail.com>
+Date:   Mon Dec 11 18:52:05 2023 -0500
+
+    fixed a few issues with multitestverification testcase
+
+[33mcommit e5df2ef74b1ec2541b253fe3dfd04922a85ca2f1[m
+Author: laddhasuneedhi <phantrash360@gmail.com>
+Date:   Mon Dec 11 18:18:17 2023 -0500
+
+    added changes for the detectors
+
+[33mcommit a39f69ece7870d9c853f0d6331abef4ffad2cde1[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Dec 5 16:51:54 2023 -0500
+
+    cleanup
+
+[33mcommit 5abdc8ba81a59eab289a78c728156b38fbe9bcb9[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Dec 5 16:43:03 2023 -0500
+
+    add field to record LeakageInstance
+
+[33mcommit 781f8f23078df1660dff509d20699dff1f917e96[m
+Merge: 58aa229 3a1b636
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Dec 5 16:16:50 2023 -0500
+
+    Merge branch 'cdemario' into cdemario-inspection
+
+[33mcommit 3a1b6366c92ebe8debd72c852cf1b08797cd35a1[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Dec 5 16:16:29 2023 -0500
+
+    remove comments
+
+[33mcommit 58aa2292372fad605b50fc4d812a6553bb198069[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Dec 5 16:11:14 2023 -0500
+
+    make a simple inspection
+
+[33mcommit 83a1b41dd158d66299d1ab3c484816b7fac6bdef[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Dec 4 22:30:09 2023 -0500
+
+    first commit
+
+[33mcommit c19994b9f153eba69c2e0233ff8887579e75f2da[m[33m ([m[1;31morigin/cdemario-leakagereport[m[33m)[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Dec 4 18:15:06 2023 -0500
+
+    update preproc leak detector
+
+[33mcommit cec577b66b8b10400bfcfc280c862d488b52f75f[m[33m ([m[1;31morigin/cdemario-leakagereport-refactoring[m[33m)[m
+Merge: c56f93b a577341
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Dec 4 16:32:05 2023 -0500
+
+    Merge branch 'action' into merge-action
+
+[33mcommit c56f93b1073d0bc5c8591fd4f421ce4ec83b0e6f[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Thu Nov 30 09:21:14 2023 -0500
+
+    preproc leak detector, delete extra file, add .class to .gitignore
+
+[33mcommit a577341312b69b4930603766e3d744281dd5c69b[m[33m ([m[1;31morigin/action[m[33m, [m[1;32maction[m[33m)[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Tue Nov 28 00:49:13 2023 -0500
+
+    cleaned up and refactored the action button
+
+[33mcommit ba1edb28c29abe87eca515be6210cea4f6028edf[m
+Merge: 0a4753f 9c60d9e
+Author: cindytran211 <72306508+cindytran211@users.noreply.github.com>
+Date:   Mon Nov 27 19:09:36 2023 -0500
+
+    Merge branch 'ctran' into cdemario-leakagereport
+
+[33mcommit e4a5c60afd5448b14cbd6d2e00e2b05c5ecb2c77[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Nov 26 23:44:50 2023 -0500
+
+    Made action button functional
+
+[33mcommit 0a4753fa240bbcdd90a7ef3691666ee1a5b290bd[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sat Nov 25 13:46:52 2023 -0500
+
+    add preprocessing message
+
+[33mcommit 8705715179cb63dd500e85369a9a662d0a11b518[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Sat Nov 25 13:44:10 2023 -0500
+
+    get changes from cdemario-multitest
+
+[33mcommit e597d24d54379dc234e46add33ab7fc1221e2a11[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Fri Nov 24 20:45:17 2023 -0500
+
+    fix small bug w renderers
+
+[33mcommit 4e5e33e17657a904940fec7a9e7f812f9bd33bd5[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Fri Nov 24 20:41:25 2023 -0500
+
+    missing end tag in plugin.xml
+
+[33mcommit 2e9240f27c8a696779913cc97329704f0912cbc0[m
+Merge: baa8d47 6291447
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 20 20:39:39 2023 -0500
+
+    Merge branch 'cdemario-leakagereport-refactoring' into cdemario-leakagereport
+
+[33mcommit 629144723c60e474ee13e7e0ec2941031717456d[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 20 20:37:45 2023 -0500
+
+    add warnings for other forms of leakage
+
+[33mcommit a433ba02b15f6511d0c65a94f5db6b4a311c9384[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 20 20:23:21 2023 -0500
+
+    remove unnecessary indicators
+
+[33mcommit 2e95d7d731b6dca6f9acb42006e8483c4a14953e[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 20 20:21:49 2023 -0500
+
+    Revert "experimenting w kotlin apis"
+    
+    This reverts commit 95327aaf394fb56ebb046ce6645ffc2284aa130c.
+
+[33mcommit b80bbdc1a9a579a253e82c3062f152fd6928b88d[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 20 20:21:46 2023 -0500
+
+    Revert "experimenting"
+    
+    This reverts commit 2b6ec5146f476aa7ad1ca601648bb5fc2647b2c7.
+
+[33mcommit 3cb12ff64bcdcd1529203cd03b49b48431781486[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 20 20:21:44 2023 -0500
+
+    Revert "revert to block inlays"
+    
+    This reverts commit 07e6a1f010cf74d3abe8d44d0d54077adfc7bb22.
+
+[33mcommit 552ba9c0ee41e71fce67e94ddc2192a58ef7fcce[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 20 20:21:40 2023 -0500
+
+    Revert "Revert "move inlay one line up""
+    
+    This reverts commit 7e441660f0da28431d6901d0751616f8e90e3e43.
+
+[33mcommit 7e441660f0da28431d6901d0751616f8e90e3e43[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 20 20:20:12 2023 -0500
+
+    Revert "move inlay one line up"
+    
+    This reverts commit 14f36535f3789e83fac9c4dbc7c164b587ec979d.
+
+[33mcommit baa8d470ca6902deec2b4e4f82c314f36ca3eeb5[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 20 20:06:29 2023 -0500
+
+    fix factory pattern
+
+[33mcommit 07e6a1f010cf74d3abe8d44d0d54077adfc7bb22[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 20 19:48:05 2023 -0500
+
+    revert to block inlays
+
+[33mcommit 2b6ec5146f476aa7ad1ca601648bb5fc2647b2c7[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 20 19:47:13 2023 -0500
+
+    experimenting
+
+[33mcommit 95327aaf394fb56ebb046ce6645ffc2284aa130c[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 20 19:47:00 2023 -0500
+
+    experimenting w kotlin apis
+
+[33mcommit 9c60d9e5b8f993ca72cf96aed37ef5690310e0f6[m
+Author: cindytran211 <Cindy795Tran@gmail.com>
+Date:   Mon Nov 20 15:15:09 2023 -0500
+
+    adding multi-test leakage
+
+[33mcommit 0c31fb875e8fcdce8570c3ed38402efcba404970[m
+Merge: 80a4f9c 14f3653
+Author: cindytran211 <72306508+cindytran211@users.noreply.github.com>
+Date:   Sat Nov 18 12:54:11 2023 -0500
+
+    Merge pull request #3 from SE4AIResearch/develop
+    
+    Develop
+
+[33mcommit d4578c33b3655373068a9469ee480127d249f0e9[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Wed Nov 15 18:16:41 2023 -0500
+
+    added ipynb action, only visible on ipynb files
+
+[33mcommit 4f564399dcaaede9bf38ebdb72662b95dd8ad499[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Wed Nov 15 18:03:42 2023 -0500
+
+    My Action only visible when highlighting py file
+
+[33mcommit f40303105bb727a45dfb1495892d11f97fa34cdc[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Wed Nov 15 16:36:51 2023 -0500
+
+    fixed MyAction and added IPYNBAnlysis action template
+
+[33mcommit 14f36535f3789e83fac9c4dbc7c164b587ec979d[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Fri Nov 17 11:08:25 2023 -0500
+
+    move inlay one line up
+
+[33mcommit f498ad46280e97a8d8958fb04114b052f6ca2262[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Fri Nov 17 10:34:09 2023 -0500
+
+    inlays WORK but values are hardcoded
+
+[33mcommit 80a4f9cdc055946537d08fbd99e72c6d80cdd198[m
+Merge: d94c048 caa158a
+Author: cindytran211 <72306508+cindytran211@users.noreply.github.com>
+Date:   Fri Nov 17 09:41:17 2023 -0500
+
+    Merge pull request #2 from SE4AIResearch/cdemario-leakagereport-refactoring
+    
+    Cdemario leakagereport refactoring into ctran
+
+[33mcommit dfa747b271c73a592877a79d67715111e34108e4[m
+Merge: caa158a fa1b44c
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Nov 14 13:21:09 2023 -0500
+
+    Merge branch 'action' into cdemario-leakagereport
+
+[33mcommit caa158a6fbc3ba9ede87c85580c6c20fbb03a8b3[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Nov 14 09:34:19 2023 -0500
+
+    refactoring
+
+[33mcommit fa1b44c5168a039812006415774744c5684f6915[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Tue Nov 14 09:16:07 2023 -0500
+
+    added an mvp action button
+
+[33mcommit ba7e68c726266a3ff8bf6d1180cd1dd9219029b3[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Nov 14 08:46:09 2023 -0500
+
+    separate different types of leakage.. block inlay hint keeps moving.. needs refactoring
+
+[33mcommit 6946b255152cc71174217a7314925e320016c3b1[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 13 20:14:36 2023 -0500
+
+    force warning onto line number
+
+[33mcommit 36edbdc0c48f4a1bb8797ab95ee60a290efdd3f0[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Mon Nov 13 16:22:48 2023 -0500
+
+    put leakage warning on line 11
+
+[33mcommit c9f5f8ac64c358d7faf570f878face42d7318424[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Fri Nov 10 10:12:50 2023 -0500
+
+    check if there is a change in the file currently being edited
+
+[33mcommit 1d340027f3396d9a72e8981085c86abf5f56b229[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Fri Nov 10 09:24:20 2023 -0500
+
+    fix inlay hint
+
+[33mcommit c2ab16751022e6aa945f5c5cd048a24dfd406529[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Fri Nov 10 08:31:18 2023 -0500
+
+    remove inspection suppressor
+
+[33mcommit 587be8b3bfb53cae2d65ca8f8c191e58e4736026[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Fri Nov 10 08:29:17 2023 -0500
+
+    remove some files to get plugin building
+
+[33mcommit 5ee3bda52db1bc324c3c53066cd89a3fad8f1c88[m
+Merge: 472dfab 2cd2778
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Tue Nov 7 19:48:38 2023 -0500
+
+    Merge branch 'opens-pycharm' into develop
+    merging opens-pycharm and develop, run plugin now opens pycharm community
+
+[33mcommit 23c3dd5b0a1ad8f37c2f9193c127929321c03297[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Nov 7 15:03:36 2023 -0500
+
+    delete boilerplate files
+
+[33mcommit d94c0481b7b8bb985b5e01b4f753ca77921454fc[m
+Merge: babf6db 472dfab
+Author: cindytran211 <72306508+cindytran211@users.noreply.github.com>
+Date:   Tue Nov 7 10:04:37 2023 -0500
+
+    Merge pull request #1 from SE4AIResearch/develop
+    
+    Pulling From Develop Into My Branch
+
+[33mcommit 472dfab3a7f10b602c383aea880a9fb3a2f75740[m
+Merge: b5edce2 babf6db
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Nov 7 08:33:24 2023 -0500
+
+    remove service, misc cleanup
+
+[33mcommit 2cd277874dee5476ce1169d11f093dc7aa4f0b6f[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Mon Nov 6 09:32:08 2023 -0500
+
+    Changed to community edition
+
+[33mcommit d66735f340f586d11c8903b06696db4e9b5c2ab7[m
+Author: Roger Shagawat <34222430+rogerShagawat@users.noreply.github.com>
+Date:   Sun Nov 5 17:21:52 2023 -0500
+
+    Run Plugin now opens pycharm becasue of gradle properties
+
+[33mcommit b5edce237b5d96db4ed5d61733cefe2d205bd8ca[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Thu Nov 2 09:24:10 2023 -0400
+
+    refactoring attempt - not working
+
+[33mcommit babf6dbd04c95b4b133b75f65eed0fe510788601[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Wed Nov 1 10:14:31 2023 -0400
+
+    refactoring attempt - not working
+
+[33mcommit 026fffb9597b5a5e673eb4fa145703d48979f939[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Wed Nov 1 10:12:03 2023 -0400
+
+    refactoring attempt - not working
+
+[33mcommit 2cfc786a2dfdcb2f00b71b4e7c4b8005448cf769[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Wed Nov 1 08:57:13 2023 -0400
+
+    make block hint show up only once
+
+[33mcommit d18bbced19d1a2b7fbb09a5f149bbb20fccc0716[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Tue Oct 31 12:45:21 2023 -0400
+
+    added block hint when code changes
+
+[33mcommit f27bbcda5ff2816c9264dcdbd470932199e6227e[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Wed Oct 25 16:03:59 2023 -0400
+
+    initial commit on new repo
+
+[33mcommit 469a7b2f7087ba6929775baffd1a7b6e8480e636[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Wed Oct 18 18:55:19 2023 -0400
+
+    add java code
+
+[33mcommit 8b96ca17a05aa38d1818dfad5ad7dfe1c2a7f553[m
+Author: cd721 <cdemario@stevens.edu>
+Date:   Wed Oct 11 08:33:01 2023 -0400
+
+    initial commit
+
+[33mcommit 4f872b10299a70cde550070ab2a133e48910493a[m
+Author: GitHub Action <action@github.com>
+Date:   Fri Sep 22 13:58:04 2023 +0000
+
+    Template cleanup
+
+[33mcommit a4de310da0dd91685a789e7a6b2945577776b155[m
+Author: cd721 <55518903+cd721@users.noreply.github.com>
+Date:   Fri Sep 22 09:57:48 2023 -0400
+
+    Initial commit
